@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BBE863150E1DFF005DA5C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE862150E1DFF005DA5C9 /* UIKit.framework */; };
+		A1BBE865150E1DFF005DA5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE864150E1DFF005DA5C9 /* Foundation.framework */; };
+		A1BBE867150E1DFF005DA5C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE866150E1DFF005DA5C9 /* CoreGraphics.framework */; };
+		A1BBE86D150E1DFF005DA5C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE86B150E1DFF005DA5C9 /* InfoPlist.strings */; };
+		A1BBE86F150E1DFF005DA5C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE86E150E1DFF005DA5C9 /* main.m */; };
+		A1BBE873150E1DFF005DA5C9 /* SRKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */; };
+		A1BBE876150E1DFF005DA5C9 /* SRKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE875150E1DFF005DA5C9 /* SRKViewController.m */; };
+		A1BBE879150E1DFF005DA5C9 /* SRKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE877150E1DFF005DA5C9 /* SRKViewController_iPhone.xib */; };
+		A1BBE87C150E1DFF005DA5C9 /* SRKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE87A150E1DFF005DA5C9 /* SRKViewController_iPad.xib */; };
+		A1BBE884150E1DFF005DA5C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE883150E1DFF005DA5C9 /* SenTestingKit.framework */; };
+		A1BBE885150E1DFF005DA5C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE862150E1DFF005DA5C9 /* UIKit.framework */; };
+		A1BBE886150E1DFF005DA5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE864150E1DFF005DA5C9 /* Foundation.framework */; };
+		A1BBE88E150E1DFF005DA5C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE88C150E1DFF005DA5C9 /* InfoPlist.strings */; };
+		A1BBE891150E1DFF005DA5C9 /* draw2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE890150E1DFF005DA5C9 /* draw2DTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BBE887150E1DFF005DA5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BBE855150E1DFF005DA5C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BBE85D150E1DFF005DA5C9;
+			remoteInfo = draw2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1BBE85E150E1DFF005DA5C9 /* draw2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draw2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BBE862150E1DFF005DA5C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1BBE864150E1DFF005DA5C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1BBE866150E1DFF005DA5C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1BBE86A150E1DFF005DA5C9 /* draw2D-Info.plist */ = {isa = PBXFileReference; path = "draw2D-Info.plist"; sourceTree = "<group>"; };
+		A1BBE86C150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1BBE86E150E1DFF005DA5C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1BBE870150E1DFF005DA5C9 /* draw2D-Prefix.pch */ = {isa = PBXFileReference; path = "draw2D-Prefix.pch"; sourceTree = "<group>"; };
+		A1BBE871150E1DFF005DA5C9 /* SRKAppDelegate.h */ = {isa = PBXFileReference; path = SRKAppDelegate.h; sourceTree = "<group>"; };
+		A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRKAppDelegate.m; sourceTree = "<group>"; };
+		A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */ = {isa = PBXFileReference; path = SRKViewController.h; sourceTree = "<group>"; };
+		A1BBE875150E1DFF005DA5C9 /* SRKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRKViewController.m; sourceTree = "<group>"; };
+		A1BBE878150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRKViewController_iPhone.xib; sourceTree = "<group>"; };
+		A1BBE87B150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRKViewController_iPad.xib; sourceTree = "<group>"; };
+		A1BBE882150E1DFF005DA5C9 /* draw2DTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draw2DTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BBE883150E1DFF005DA5C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1BBE88B150E1DFF005DA5C9 /* draw2DTests-Info.plist */ = {isa = PBXFileReference; path = "draw2DTests-Info.plist"; sourceTree = "<group>"; };
+		A1BBE88D150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1BBE88F150E1DFF005DA5C9 /* draw2DTests.h */ = {isa = PBXFileReference; path = draw2DTests.h; sourceTree = "<group>"; };
+		A1BBE890150E1DFF005DA5C9 /* draw2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = draw2DTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BBE85B150E1DFF005DA5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE863150E1DFF005DA5C9 /* UIKit.framework in Frameworks */,
+				A1BBE865150E1DFF005DA5C9 /* Foundation.framework in Frameworks */,
+				A1BBE867150E1DFF005DA5C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BBE87E150E1DFF005DA5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE884150E1DFF005DA5C9 /* SenTestingKit.framework in Frameworks */,
+				A1BBE885150E1DFF005DA5C9 /* UIKit.framework in Frameworks */,
+				A1BBE886150E1DFF005DA5C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BBE853150E1DFF005DA5C9 = {
+			isa = PBXGroup;
+			children = (
+				A1BBE868150E1DFF005DA5C9 /* draw2D */,
+				A1BBE889150E1DFF005DA5C9 /* draw2DTests */,
+				A1BBE861150E1DFF005DA5C9 /* Frameworks */,
+				A1BBE85F150E1DFF005DA5C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BBE85F150E1DFF005DA5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE85E150E1DFF005DA5C9 /* draw2D.app */,
+				A1BBE882150E1DFF005DA5C9 /* draw2DTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BBE861150E1DFF005DA5C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE862150E1DFF005DA5C9 /* UIKit.framework */,
+				A1BBE864150E1DFF005DA5C9 /* Foundation.framework */,
+				A1BBE866150E1DFF005DA5C9 /* CoreGraphics.framework */,
+				A1BBE883150E1DFF005DA5C9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1BBE868150E1DFF005DA5C9 /* draw2D */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE871150E1DFF005DA5C9 /* SRKAppDelegate.h */,
+				A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */,
+				A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */,
+				A1BBE875150E1DFF005DA5C9 /* SRKViewController.m */,
+				A1BBE877150E1DFF005DA5C9 /* SRKViewController_iPhone.xib */,
+				A1BBE87A150E1DFF005DA5C9 /* SRKViewController_iPad.xib */,
+				A1BBE869150E1DFF005DA5C9 /* Supporting Files */,
+			);
+			path = draw2D;
+			sourceTree = "<group>";
+		};
+		A1BBE869150E1DFF005DA5C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE86A150E1DFF005DA5C9 /* draw2D-Info.plist */,
+				A1BBE86B150E1DFF005DA5C9 /* InfoPlist.strings */,
+				A1BBE86E150E1DFF005DA5C9 /* main.m */,
+				A1BBE870150E1DFF005DA5C9 /* draw2D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1BBE889150E1DFF005DA5C9 /* draw2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE88F150E1DFF005DA5C9 /* draw2DTests.h */,
+				A1BBE890150E1DFF005DA5C9 /* draw2DTests.m */,
+				A1BBE88A150E1DFF005DA5C9 /* Supporting Files */,
+			);
+			path = draw2DTests;
+			sourceTree = "<group>";
+		};
+		A1BBE88A150E1DFF005DA5C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BBE88B150E1DFF005DA5C9 /* draw2DTests-Info.plist */,
+				A1BBE88C150E1DFF005DA5C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BBE85D150E1DFF005DA5C9 /* draw2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BBE894150E1DFF005DA5C9 /* Build configuration list for PBXNativeTarget "draw2D" */;
+			buildPhases = (
+				A1BBE85A150E1DFF005DA5C9 /* Sources */,
+				A1BBE85B150E1DFF005DA5C9 /* Frameworks */,
+				A1BBE85C150E1DFF005DA5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = draw2D;
+			productName = draw2D;
+			productReference = A1BBE85E150E1DFF005DA5C9 /* draw2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1BBE881150E1DFF005DA5C9 /* draw2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BBE897150E1DFF005DA5C9 /* Build configuration list for PBXNativeTarget "draw2DTests" */;
+			buildPhases = (
+				A1BBE87D150E1DFF005DA5C9 /* Sources */,
+				A1BBE87E150E1DFF005DA5C9 /* Frameworks */,
+				A1BBE87F150E1DFF005DA5C9 /* Resources */,
+				A1BBE880150E1DFF005DA5C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BBE888150E1DFF005DA5C9 /* PBXTargetDependency */,
+			);
+			name = draw2DTests;
+			productName = draw2DTests;
+			productReference = A1BBE882150E1DFF005DA5C9 /* draw2DTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BBE855150E1DFF005DA5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A1BBE858150E1DFF005DA5C9 /* Build configuration list for PBXProject "draw2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1BBE853150E1DFF005DA5C9;
+			productRefGroup = A1BBE85F150E1DFF005DA5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BBE85D150E1DFF005DA5C9 /* draw2D */,
+				A1BBE881150E1DFF005DA5C9 /* draw2DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BBE85C150E1DFF005DA5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE86D150E1DFF005DA5C9 /* InfoPlist.strings in Resources */,
+				A1BBE879150E1DFF005DA5C9 /* SRKViewController_iPhone.xib in Resources */,
+				A1BBE87C150E1DFF005DA5C9 /* SRKViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BBE87F150E1DFF005DA5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE88E150E1DFF005DA5C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1BBE880150E1DFF005DA5C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BBE85A150E1DFF005DA5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE86F150E1DFF005DA5C9 /* main.m in Sources */,
+				A1BBE873150E1DFF005DA5C9 /* SRKAppDelegate.m in Sources */,
+				A1BBE876150E1DFF005DA5C9 /* SRKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BBE87D150E1DFF005DA5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BBE891150E1DFF005DA5C9 /* draw2DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BBE888150E1DFF005DA5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BBE85D150E1DFF005DA5C9 /* draw2D */;
+			targetProxy = A1BBE887150E1DFF005DA5C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1BBE86B150E1DFF005DA5C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BBE86C150E1DFF005DA5C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1BBE877150E1DFF005DA5C9 /* SRKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BBE878150E1DFF005DA5C9 /* en */,
+			);
+			name = SRKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A1BBE87A150E1DFF005DA5C9 /* SRKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BBE87B150E1DFF005DA5C9 /* en */,
+			);
+			name = SRKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A1BBE88C150E1DFF005DA5C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BBE88D150E1DFF005DA5C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BBE892150E1DFF005DA5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BBE893150E1DFF005DA5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BBE895150E1DFF005DA5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draw2D/draw2D-Prefix.pch";
+				INFOPLIST_FILE = "draw2D/draw2D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1BBE896150E1DFF005DA5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draw2D/draw2D-Prefix.pch";
+				INFOPLIST_FILE = "draw2D/draw2D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1BBE898150E1DFF005DA5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/draw2D.app/draw2D";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draw2D/draw2D-Prefix.pch";
+				INFOPLIST_FILE = "draw2DTests/draw2DTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1BBE899150E1DFF005DA5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/draw2D.app/draw2D";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "draw2D/draw2D-Prefix.pch";
+				INFOPLIST_FILE = "draw2DTests/draw2DTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BBE858150E1DFF005DA5C9 /* Build configuration list for PBXProject "draw2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BBE892150E1DFF005DA5C9 /* Debug */,
+				A1BBE893150E1DFF005DA5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BBE894150E1DFF005DA5C9 /* Build configuration list for PBXNativeTarget "draw2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BBE895150E1DFF005DA5C9 /* Debug */,
+				A1BBE896150E1DFF005DA5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1BBE897150E1DFF005DA5C9 /* Build configuration list for PBXNativeTarget "draw2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BBE898150E1DFF005DA5C9 /* Debug */,
+				A1BBE899150E1DFF005DA5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BBE855150E1DFF005DA5C9 /* Project object */;
+}
