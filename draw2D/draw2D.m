@@ -7,6 +7,7 @@
 //
 
 #import "draw2D.h"
+#import "KlorkButton.h"
 
 @implementation draw2D
 
@@ -26,11 +27,15 @@
 {
     // Drawing code
     
+      
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, 2.0);
     CGContextSetShadow(context, CGSizeMake(13, 13), 4.0);
     
+    KlorkButton *X = [[KlorkButton alloc] init:context atX:4 atY:5 withWidth:75 andHeight:30];
+    [X DrawToScreen:context];
+    /*
     // Set a Background Color
     CGFloat components[] = {0.3, 0.4, 1.0, 1.0};
     CGColorRef color = CGColorCreate(CGColorSpaceCreateDeviceRGB(), components);
@@ -70,7 +75,7 @@
         //Set Fill Color and fill Rect.
         CGContextSetFillColorWithColor(context, [UIColor greenColor].CGColor);
         CGContextFillRect(context, rectangle);
-    
+    */
 }
 
 

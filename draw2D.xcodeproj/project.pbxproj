@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A187DE2B151635D600631D3B /* KlorkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A187DE2A151635D600631D3B /* KlorkButton.m */; };
 		A1BBE863150E1DFF005DA5C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE862150E1DFF005DA5C9 /* UIKit.framework */; };
 		A1BBE865150E1DFF005DA5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE864150E1DFF005DA5C9 /* Foundation.framework */; };
 		A1BBE867150E1DFF005DA5C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE866150E1DFF005DA5C9 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A187DE29151635D600631D3B /* KlorkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KlorkButton.h; path = Screen_Items/KlorkButton.h; sourceTree = "<group>"; };
+		A187DE2A151635D600631D3B /* KlorkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KlorkButton.m; path = Screen_Items/KlorkButton.m; sourceTree = "<group>"; };
 		A1BBE85E150E1DFF005DA5C9 /* draw2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draw2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BBE862150E1DFF005DA5C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1BBE864150E1DFF005DA5C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 		A1BBE868150E1DFF005DA5C9 /* draw2D */ = {
 			isa = PBXGroup;
 			children = (
+				A187DE29151635D600631D3B /* KlorkButton.h */,
+				A187DE2A151635D600631D3B /* KlorkButton.m */,
 				A1BBE871150E1DFF005DA5C9 /* SRKAppDelegate.h */,
 				A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */,
 				A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */,
@@ -274,6 +279,7 @@
 				A1BBE873150E1DFF005DA5C9 /* SRKAppDelegate.m in Sources */,
 				A1BBE876150E1DFF005DA5C9 /* SRKViewController.m in Sources */,
 				A1BBE89C150E22BE005DA5C9 /* draw2D.m in Sources */,
+				A187DE2B151635D600631D3B /* KlorkButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				A1BBE896150E1DFF005DA5C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1BBE897150E1DFF005DA5C9 /* Build configuration list for PBXNativeTarget "draw2DTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				A1BBE899150E1DFF005DA5C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
