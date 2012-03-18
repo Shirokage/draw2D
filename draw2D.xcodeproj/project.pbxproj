@@ -21,6 +21,8 @@
 		A1BBE886150E1DFF005DA5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBE864150E1DFF005DA5C9 /* Foundation.framework */; };
 		A1BBE88E150E1DFF005DA5C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE88C150E1DFF005DA5C9 /* InfoPlist.strings */; };
 		A1BBE891150E1DFF005DA5C9 /* draw2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE890150E1DFF005DA5C9 /* draw2DTests.m */; };
+		A1BBE89C150E22BE005DA5C9 /* draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE89B150E22BE005DA5C9 /* draw2D.m */; };
+		A1BBE89E150E2BDD005DA5C9 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1BBE89D150E2BDD005DA5C9 /* me.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,25 @@
 		A1BBE862150E1DFF005DA5C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1BBE864150E1DFF005DA5C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1BBE866150E1DFF005DA5C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1BBE86A150E1DFF005DA5C9 /* draw2D-Info.plist */ = {isa = PBXFileReference; path = "draw2D-Info.plist"; sourceTree = "<group>"; };
+		A1BBE86A150E1DFF005DA5C9 /* draw2D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draw2D-Info.plist"; sourceTree = "<group>"; };
 		A1BBE86C150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1BBE86E150E1DFF005DA5C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1BBE870150E1DFF005DA5C9 /* draw2D-Prefix.pch */ = {isa = PBXFileReference; path = "draw2D-Prefix.pch"; sourceTree = "<group>"; };
-		A1BBE871150E1DFF005DA5C9 /* SRKAppDelegate.h */ = {isa = PBXFileReference; path = SRKAppDelegate.h; sourceTree = "<group>"; };
+		A1BBE870150E1DFF005DA5C9 /* draw2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "draw2D-Prefix.pch"; sourceTree = "<group>"; };
+		A1BBE871150E1DFF005DA5C9 /* SRKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRKAppDelegate.h; sourceTree = "<group>"; };
 		A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRKAppDelegate.m; sourceTree = "<group>"; };
-		A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */ = {isa = PBXFileReference; path = SRKViewController.h; sourceTree = "<group>"; };
+		A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRKViewController.h; sourceTree = "<group>"; };
 		A1BBE875150E1DFF005DA5C9 /* SRKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRKViewController.m; sourceTree = "<group>"; };
 		A1BBE878150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRKViewController_iPhone.xib; sourceTree = "<group>"; };
 		A1BBE87B150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRKViewController_iPad.xib; sourceTree = "<group>"; };
 		A1BBE882150E1DFF005DA5C9 /* draw2DTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draw2DTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BBE883150E1DFF005DA5C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1BBE88B150E1DFF005DA5C9 /* draw2DTests-Info.plist */ = {isa = PBXFileReference; path = "draw2DTests-Info.plist"; sourceTree = "<group>"; };
+		A1BBE88B150E1DFF005DA5C9 /* draw2DTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draw2DTests-Info.plist"; sourceTree = "<group>"; };
 		A1BBE88D150E1DFF005DA5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1BBE88F150E1DFF005DA5C9 /* draw2DTests.h */ = {isa = PBXFileReference; path = draw2DTests.h; sourceTree = "<group>"; };
+		A1BBE88F150E1DFF005DA5C9 /* draw2DTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = draw2DTests.h; sourceTree = "<group>"; };
 		A1BBE890150E1DFF005DA5C9 /* draw2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = draw2DTests.m; sourceTree = "<group>"; };
+		A1BBE89A150E22BE005DA5C9 /* draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw2D.h; sourceTree = "<group>"; };
+		A1BBE89B150E22BE005DA5C9 /* draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = draw2D.m; sourceTree = "<group>"; };
+		A1BBE89D150E2BDD005DA5C9 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpg; path = ../../../Desktop/me.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 				A1BBE889150E1DFF005DA5C9 /* draw2DTests */,
 				A1BBE861150E1DFF005DA5C9 /* Frameworks */,
 				A1BBE85F150E1DFF005DA5C9 /* Products */,
+				A1BBE89D150E2BDD005DA5C9 /* me.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +123,8 @@
 				A1BBE872150E1DFF005DA5C9 /* SRKAppDelegate.m */,
 				A1BBE874150E1DFF005DA5C9 /* SRKViewController.h */,
 				A1BBE875150E1DFF005DA5C9 /* SRKViewController.m */,
+				A1BBE89A150E22BE005DA5C9 /* draw2D.h */,
+				A1BBE89B150E22BE005DA5C9 /* draw2D.m */,
 				A1BBE877150E1DFF005DA5C9 /* SRKViewController_iPhone.xib */,
 				A1BBE87A150E1DFF005DA5C9 /* SRKViewController_iPad.xib */,
 				A1BBE869150E1DFF005DA5C9 /* Supporting Files */,
@@ -227,6 +235,7 @@
 				A1BBE86D150E1DFF005DA5C9 /* InfoPlist.strings in Resources */,
 				A1BBE879150E1DFF005DA5C9 /* SRKViewController_iPhone.xib in Resources */,
 				A1BBE87C150E1DFF005DA5C9 /* SRKViewController_iPad.xib in Resources */,
+				A1BBE89E150E2BDD005DA5C9 /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +273,7 @@
 				A1BBE86F150E1DFF005DA5C9 /* main.m in Sources */,
 				A1BBE873150E1DFF005DA5C9 /* SRKAppDelegate.m in Sources */,
 				A1BBE876150E1DFF005DA5C9 /* SRKViewController.m in Sources */,
+				A1BBE89C150E22BE005DA5C9 /* draw2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
